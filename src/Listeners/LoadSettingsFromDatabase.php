@@ -18,7 +18,7 @@ use Illuminate\Contracts\Events\Dispatcher;
 
 class LoadSettingsFromDatabase
 {
-    protected $packagePrefix = 'zerosonesfun-announce';
+    protected $packagePrefix = 'zerosonesfun-announce.';
 
     protected $fieldsToGet = [
         'text',
