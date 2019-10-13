@@ -1,6 +1,14 @@
 #Announce {
   width: 100%;
   pointer-events: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20em;
+  z-index: 999999;
+  
+#Announce.false .Announce--Content {
+    display: none;
+}
 
   .container {
     display: flex;
