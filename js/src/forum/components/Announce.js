@@ -14,7 +14,7 @@ export default class Announce extends Component {
         return (
             <div id="Announce" className={this.open && 'showing'}>
                 <div className="container">
-                    <div className="Announce--Content">
+                    <div className="Announce--Content Button--primary">
                         {m.trust(app.forum.attribute('zerosonesfun-announce.text') || '')}
                     </div>
                     <div className="Announce--Icons">
