@@ -5,8 +5,8 @@ import Announce from './components/Announce';
 
 app.initializers.add('zerosonesfun-announce', () => {
     extend(Application.prototype, 'mount', () => {
-        const body = document.createElement('div');
+        const footer = document.createElement('div');
 
-        m.mount(document.body.appendChild(body), Announce.component());
+        m.mount(document.body.appendChild(footer), Announce.component());
     });
 });
