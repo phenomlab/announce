@@ -14,12 +14,12 @@ export default class Announce extends Component {
         return (
             <div id="Announce" className={this.open && 'showing'}>
                 <div className="container">
-                    <div className="Announce--Content" style={`height: ${this.open ? app.forum.attribute('zerosonesfun-announce-footer.height') || 50 : 0}px;`}>
+                    <div className="Announce--Content">
                         {m.trust(app.forum.attribute('zerosonesfun-announce.text') || '')}
                     </div>
                     <div className="Announce--Icons">
-                        <i className={`Footer--Show fa fa-info-circle ${this.open && 'hidden'}`} onclick={() => (this.open = true)} />
-                        <i className={`Footer--Hide fa fa-caret-down ${!this.open && 'hidden'}`} onclick={() => (this.open = false)} />
+                        <i className={`Footer--Show fas fa-bullhorn ${this.open && 'hidden'}`} onclick={() => (this.open = true)} />
+                        <i className={`Footer--Hide fa fa-times-circle ${!this.open && 'hidden'}`} onclick={() => (this.open = false)} />
                     </div>
                 </div>
             </div>
