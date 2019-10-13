@@ -1,6 +1,6 @@
 # Announce
 
-A [Flarum](http://flarum.org) extension. Make an announcement appear above the discussions list.
+A [Flarum](http://flarum.org) extension. Make an announcement appear at the top of your forum.
 
 ### Installation
 
