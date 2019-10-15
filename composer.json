@@ -26,10 +26,9 @@
             "title": "Announce",
             "icon": {
                 "name": "fas fa-bullhorn",
-                "backgroundColor": "#cccccc",
-                "color": "#000000"
+                "backgroundColor": "#ddd",
+                "color": "#000"
             }
         }
-
     }
 }
