@@ -19,5 +19,3 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/announce)
 - [GitHub](https://github.com/zerosonesfun/announce)
-
-An extension by [Billy Wilcosky](https://wilcosky.com).
